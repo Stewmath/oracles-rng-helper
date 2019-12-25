@@ -1,0 +1,1 @@
+pyinstaller --onefile rngsearcher.py
