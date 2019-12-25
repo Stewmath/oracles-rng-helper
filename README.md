@@ -17,3 +17,5 @@ L/M/H: Input sword slash sounds. 1/2/3 also work.
 Backspace: Delete an input.
 
 R: Reset input.
+
+Escape: Exit.

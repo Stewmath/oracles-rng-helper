@@ -167,9 +167,11 @@ if __name__ == "__main__":
 
         while True:
             c = stdscr.getch()
-            if c == 127: # Backspace
+            if c == 8 or c == 127: # Backspace
                 if len(sequence) != 0:
                     sequence.pop()
+            elif c == 27: # Escape
+                break
             elif c == ord('r') or c == ord('R'):
                 sequence = []
             elif convertSlashChar(chr(c)) is not None:
